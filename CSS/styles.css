@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+@font-face {
+    font-family: 'CCRickVeitch';
+    src: url(../fontes/CCRickVeitch.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: #D38A1F;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+h1 {
+    font-family: "Forte", cursive;
+    font-size: 45px;
+    text-align: center;
+    color: #D38A1F;
+    margin: 30px 0;
+} 
+
+.titulo_inicial {
+    font-family: "CCRickVeitch", sans-serif;
+    color: rgb(250, 238, 238);
+    font-size: 35px;
+    margin: 0px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    font-family: "Jost", sans-serif;
+    font-style: bold;
+    font-size: 18px;
+    color: rgb(217, 224, 230);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #fcbf64;
+    font-weight: bold;
+    border-radius: 50px;
+    color: #86c64f;
+    border-bottom: 2px solid;
+}
+
+.card, #texto-pag3 {
+    padding: 20px;
+    margin: 65px;
+    background-color: #CFCFCF;
+    border-radius: 10px;
+}
+
+p {
+    font-family: "Jost", sans-serif ;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* grade de imagens */
+.grid_grupos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px; /* divide espaço entre elementos */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+
+
+.grupo {
+    display: grid;
+    font-size: "Jost", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: #86c64f;
+    border-radius: 17px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.grupo img{
+    height: 420px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #D38A1F;
+    font-size: "Jost", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+}
+
+.texto-footer {
+    font-size: 14px;
+}
+
+.conteudo {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fcbf64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo img{
+    width: 60%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.conteudo{
+    margin: 20px;
+}
+
+button {
+    background-color: #86c64f;
+    font-size: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+#banner img{
+    width: 95%;
+}
+
+video {
+    width: 55%;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+
+#botao-pag2, #banner, #video-trajeto{
+    text-align: center;
+}
+
